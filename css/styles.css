@@ -267,12 +267,12 @@ html {
     text-decoration: none;
     padding: 6px 10px;
     border-radius: 5px;
-    display: inline-block;
+    display: block;
     width: fit-content;
 }
 #sec-1 aside {
     width: 95%;
-    margin: 25px auto 0px;
+    margin: 25px auto;
 }
 #sec-1 aside img{
     max-width: 100%;

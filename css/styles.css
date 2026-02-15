@@ -260,7 +260,17 @@ html {
     text-align: justify;
     margin: 1.3rem 0px 1.1rem;
 }
-#sec-1 article a{
+/* #sec-1 article div p{
+    font-size: 0.85rem;
+    text-align: justify;
+    margin: 1.3rem 0px 1.1rem;
+} */
+#sec-1 article div{
+    font-size: 0.85rem;
+    text-align: justify;
+    margin: 1.3rem 0px 1.1rem;
+}
+#sec-1 article div a{
     color: var(--txtaccent);
     background-color: var(--haccent);
     text-transform: uppercase;
@@ -272,7 +282,7 @@ html {
 }
 #sec-1 aside {
     width: 95%;
-    margin: 25px auto;
+    margin: 25px auto 0px;
 }
 #sec-1 aside img{
     max-width: 100%;

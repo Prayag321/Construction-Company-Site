@@ -24,6 +24,34 @@ html {
     --bgaccent: #1A1C27;
     --bgaccent_withOpacity: rgba(26, 28, 39,0.96);
 }
+/* ===== Scrollbar Styling ===== */
+
+/* Works in Chrome, Edge, Safari */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bgaccent); /* dark background */
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--haccent); /* construction yellow */
+    border-radius: 10px;
+    border: 2px solid var(--bgaccent);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--haccent2); /* darker yellow on hover */
+}
+
+/* Works in Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--haccent) var(--bgaccent);
+}
+
+
 .container{
     width: 95%;
     margin: 0px auto;
@@ -725,6 +753,11 @@ text-shadow:1px 1px #73757E;
 }
 #sec-7 p{
     color: var(--txtaccent5);
+}
+#sec-7 a{
+    color: var(--txtaccent1);
+    text-decoration: none;
+    font-size: .4rem;
 }
 #sec-7 p span{
     color: var(--haccent);
